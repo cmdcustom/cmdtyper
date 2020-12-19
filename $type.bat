@@ -9,7 +9,7 @@ set vbi=
 set /p vbi=
 cd C:\Windows\System32
 echo Set WshShell = WScript.CreateObject("WScript.Shell") >> %vbi%.vbs
-echo. WScript.Sleep 2000 >> %vbi%.vbs
+echo. WScript.Sleep 1000 >> %vbi%.vbs
 echo.WshShell.SendKeys "%text%" >> %vbi%.vbs
 echo Instance created! Linking a command to it. 
 echo @echo off >> $typefromid%typeid%.bat
